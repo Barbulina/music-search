@@ -1,5 +1,5 @@
 {
-  "name": "people-takehome-interfacex-vue-emilio-fernandez",
+  "name": "music-search",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,8 @@
     "test:unit:watch": "vue-cli-service test:unit --watch",
     "test:unit:coverage": "vue-cli-service test:unit --coverage --collectCoverageFrom=src/**/*.{js,vue}",
     "test:e2e": "vue-cli-service test:e2e",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "sh deploy.sh"
   },
   "dependencies": {
     "axios": "^0.21.4",
