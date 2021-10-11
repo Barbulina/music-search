@@ -1,5 +1,5 @@
 export const spotifyConfig = {
-  tokenUrl: "XXX",
+  tokenUrl: "https://accounts.spotify.com/api/token",
   clientId: "XXX",
   clientSecret: "XXX",
 };
